@@ -169,6 +169,15 @@ body {
 .footer-map:focus, .footer-mail:focus, .footer-tel:focus, .header-mail:focus, .header-tel:focus, .header-link:focus {
     color: var(--header-link-one-color)
 }
+.choice-btn-one {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    background-color: #2196F3;
+}
 .choice-btn {
     font-weight: 500;
     font-size: 16px;
@@ -179,7 +188,10 @@ body {
     background-color: #F5F4FA;
 }
 .choice-btn:hover {
-    background-color: #2196F3;
+    background-color: var(--header-link-one-color)
+}
+.choice-btn:focus {
+    background-color: var(--header-link-one-color)
 }
 .portfolio-title {
     font-weight: 700;
