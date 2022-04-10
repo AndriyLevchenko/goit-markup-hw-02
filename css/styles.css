@@ -147,10 +147,6 @@ body {
     color: var(--secondery-text-color);
     background-color: #F5F4FA;
 }
-.choice-btn.current {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
-}
 .choice-btn:hover,
 .choice-btn:focus {
     color: var(--primary-white-color);
