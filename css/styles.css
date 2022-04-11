@@ -40,9 +40,6 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondery-text-color);
 }
-.current {
-    color: var(--accent-color);
-}
 .header-mail,
 .header-tel {
     color: var(--primary-text-color);
@@ -138,6 +135,7 @@ body {
 .footer-mail:hover, .footer-tel:hover, .header-mail:hover, .header-tel:hover, .header-link:hover, .footer-mail:focus, .footer-tel:focus, .header-mail:focus, .header-tel:focus, .header-link:focus {
     color: var(--accent-color)
 }
+
 .choice-btn {
     font-weight: 500;
     font-size: 16px;
@@ -148,7 +146,8 @@ body {
     background-color: #F5F4FA;
 }
 .choice-btn:hover,
-.choice-btn:focus {
+.choice-btn:focus,
+.choice-btn.current {
     color: var(--primary-white-color);
     background-color: var(--accent-color)
 }
@@ -175,4 +174,6 @@ body {
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
-
+.current {
+    color: var(--accent-color);
+}
